@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/azure-pipelines-test.csproj"
+                "${workspaceFolder}/src/azure-pipelines-test/azure-pipelines-test.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
