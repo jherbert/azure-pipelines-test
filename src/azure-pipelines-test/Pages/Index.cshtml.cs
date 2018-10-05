@@ -9,9 +9,11 @@ namespace azure_pipelines_test.Pages
 {
     public class IndexModel : PageModel
     {
+        public static int Count { get; set; }
+
         public void OnGet()
         {
-
+            IndexModel.Count++;
         }
     }
 }
